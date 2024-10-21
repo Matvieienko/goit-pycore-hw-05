@@ -3,9 +3,10 @@ def input_error(func):
         try:
             return func(*args, **kwargs)
         except KeyError:
-            return "This contact does not exist."
+            return "🛑 This contact does not exist."
         except ValueError:
-            return "Give me name and phone please."
+            return "⚠️  Give me name and phone, please."
         except IndexError:
-            return "Invalid input. Please provide all required information."
+            return "⚠️  Enter the argument for the command."
+        
     return inner
