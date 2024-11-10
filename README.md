@@ -59,13 +59,13 @@ To run the bot, please follow these steps:
 
 ### Add a new contact:
 ```
-add-contact John Doe 1234567890
+add-contact John 1234567890
 ```
 ### Change the phone number:
 ```
-update-contact John Doe 1234567890 0987654321
+update-contact John 1234567890 0987654321
 ```
 ### Set a birthday date:
 ```
-set-birthday John Doe 01.01.1990
+set-birthday John 01.01.1990
 ```
