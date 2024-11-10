@@ -5,8 +5,7 @@
 
 To run the bot, please follow these steps:
 
-1. Install Python (version 3.8 or newer):
-   You can download it [here](https://www.python.org/downloads/).
+1. Install Python. You can download it [here](https://www.python.org/downloads/).
 
 2. Run the following command to install all necessary packages:
 
@@ -56,7 +55,17 @@ To run the bot, please follow these steps:
 | `exit`    | Save data and close the application. |
 
 
-## Example Command to Run:
+## Example Command:
 
-```bash
-python main.py
+### Add a new contact:
+```
+add-contact John Doe 1234567890
+```
+### Change the phone number:
+```
+update-contact John Doe 1234567890 0987654321
+```
+### Set a birthday date:
+```
+set-birthday John Doe 01.01.1990
+```
