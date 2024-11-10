@@ -55,17 +55,29 @@ To run the bot, please follow these steps:
 | `exit`    | Save data and close the application. |
 
 
-## Example Command:
+## Example
+```
+👀 Enter a command:  add-contact
+👉 Enter name:  John
+👉 Enter phone:  1234567890
+Phone {1234567890} already exists for record {John}.
 
-### Add a new contact:
-```
-add-contact John 1234567890
-```
-### Change the phone number:
-```
-update-contact John 1234567890 0987654321
-```
-### Set a birthday date:
-```
-set-birthday John 01.01.1990
-```
+
+👀 Enter a command:  set-birthday
+👉 Enter name:  John
+👉 Enter birthday in a DD.MM.YYYY date format:  01.01.1990
+Contact updated!
+
+
+👀 Enter a command:  all-contacts
+1990-01-01
+🦐JOHN
+[1234567890]
+... | ...
+
+
+The end!
+
+
+👀 Enter a command:  exit
+Good bye!```
